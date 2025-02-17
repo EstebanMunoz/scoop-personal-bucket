@@ -46,7 +46,7 @@
     ],
     "checkver": {
         "url": "https://github.com/zen-browser/desktop/releases/tag/twilight",
-        "regex": "Twilight build - ([\\d.]+t)"
+        "regex": "Twilight build - ([\\d.]+t \\([\\d-]+ at [\\d:]+\\))"
     },
     "autoupdate": {
         "architecture": {
