@@ -24,20 +24,20 @@
         "  Copy-Item -Path $Addition\\* -Destination $dir -Force -Recurse -ErrorAction SilentlyContinue",
         "}"
     ],
-    "bin": "zen.exe",
+    "bin": "zen-twilight.exe",
     "shortcuts": [
         [
             "zen.exe",
-            "Zen Browser"
+            "Zen Browser Twilight"
         ],
         [
             "zen.exe",
-            "Zen Browser Profile Manager",
+            "Zen Browser Twilight Profile Manager",
             "-P"
         ],
         [
             "private_browsing.exe",
-            "Zen Browser Private Browsing"
+            "Zen Browser Twilight Private Browsing"
         ]
     ],
     "persist": [
