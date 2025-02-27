@@ -17,7 +17,7 @@
     },
     "extract_dir": "zen",
     "post_install": [
-        "zen-twilight -CreateProfile \"Scoop $persist_dir\\profile\"",
+        "zen-twilight -CreateProfile \"Scoop-Twilight $persist_dir\\profile\"",
         "$Addition = \"$persist_dir\\addition\"",
         "if (Test-Path $Addition) {",
         "  info 'Copying additional items...'",
