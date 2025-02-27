@@ -17,14 +17,19 @@
     },
     "extract_dir": "zen",
     "post_install": [
-        "zen -CreateProfile \"Scoop $persist_dir\\profile\"",
+        "zen-twilight -CreateProfile \"Scoop $persist_dir\\profile\"",
         "$Addition = \"$persist_dir\\addition\"",
         "if (Test-Path $Addition) {",
         "  info 'Copying additional items...'",
         "  Copy-Item -Path $Addition\\* -Destination $dir -Force -Recurse -ErrorAction SilentlyContinue",
         "}"
     ],
-    "bin": "zen-twilight.exe",
+    "bin": [
+        [
+            "zen.exe",
+            "zen-twilight"
+        ]
+    ],
     "shortcuts": [
         [
             "zen.exe",
