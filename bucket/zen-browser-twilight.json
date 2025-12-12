@@ -1,5 +1,5 @@
 {
-    "version": "1.18t_20251211153511",
+    "version": "1.18t_20251211230739",
     "description": "An open-source, privacy-focused web browser with a focus on speed and user experience.",
     "homepage": "https://zen-browser.app",
     "license": "MPL-2.0",
@@ -12,7 +12,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/zen-browser/desktop/releases/download/twilight/zen.win-x86_64.zip",
-            "hash": "524a9a17386218a9198f92af70f96880e501610846b82291e9334566d3bda0b4"
+            "hash": "8604edfbda0f533ae29715fa689534ce0b80f067bee1c2c96029de3b987a245f"
         }
     },
     "extract_dir": "zen",
