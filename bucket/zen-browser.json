@@ -1,5 +1,5 @@
 {
-    "version": "1.19.5b",
+    "version": "1.19.6b",
     "description": "An open-source, privacy-focused web browser with a focus on speed and user experience.",
     "homepage": "https://zen-browser.app",
     "license": "MPL-2.0",
@@ -11,8 +11,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zen-browser/desktop/releases/download/1.19.5b/zen.installer.exe#/dl.7z",
-            "hash": "166df1ed4842623539affed74dfd7f580adb3557222fd5bb214d75e4ad6a454a"
+            "url": "https://github.com/zen-browser/desktop/releases/download/1.19.6b/zen.installer.exe#/dl.7z",
+            "hash": "84606292167b4f111c0b291aedba30de71d818230b48bfc7fb781fd92b44b5fc"
         }
     },
     "extract_dir": "core",
